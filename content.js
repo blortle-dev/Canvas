@@ -1,7 +1,9 @@
 let cont = document.getElementById("course_home_content");
+var element = document.querySelector("#course_home_content > div.ic-Action-header > div.ic-Action-header__Primary > h2");
+var text = element.textContent;
 let html = `
 <div style="width: 100%;height: 25vh;background-image: url('https://hls.harvard.edu/wp-content/uploads/2022/05/CONSTITUTION_iStock-923052552_2500.jpg');background-repeat: no-repeat;background-size: cover;">
-    <h1 class="classNameH1">AP Computer Science</h1>
+    <h1 class="classNameH1">${text}</h1>
 </div>
 <table style="width: 100%;margin-top: 50px;">
   <tbody>
